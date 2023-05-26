@@ -11,7 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="homecontainer">
+    <div class="mastercontainer">
+    <div class="homecontainer" id="homecontainer">
 
         <div class="logoandnav">
             <div class="logo">
@@ -22,6 +23,16 @@
                 <a id="navitem" href="index.html"><h3>Work</h3></a>
                 <a id="navitem" href="about.html"><h3>About</h3></a>
                 <a id="navitem" href="contact.html"><h3>Contact</h3></a>
+            </div>
+
+            <div class="header" id="header">
+                <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                <ul class="menu">
+                  <li><a id="navitem" href="index.html"><h3>Work</h3></a></li>
+                  <li><a id="navitem" href="about.html"><h3>About</h3></a></li>
+                  <li><a id="navitem" href="contact.html"><h3>Contact</h3></a></li>
+                </ul>
             </div>
         </div>
 
@@ -69,11 +80,11 @@
         <div class="footerline"></div>
         <div class="footercontent">
             <div class="footerleft">
-                <p>Caitlin McGetrick,  Graphic Designer</p>
+                <p>Caitlin McGetrick, Designer</p>
             </div>
             <div class="footericons">
-                <img style="max-width: 25px;" src="img/iglogo.png" alt="">
-                <img style="max-width: 25px; padding-left: 15px;" src="img/linkedinlogo.png" alt="">
+                <img style="max-width: 25px;" src="img/iglogo.png" alt="instagram logo">
+                <img style="max-width: 25px; padding-left: 10px;" src="img/linkedinlogo.png" alt="linkedin logo">
             </div>
             <div class="footerright">
                 <a id="navitem" href="index.html"><p>Work</p></a>
@@ -84,6 +95,6 @@
     </div>
 
     </div>
-    
+    </div>
 </body>
 </html>
